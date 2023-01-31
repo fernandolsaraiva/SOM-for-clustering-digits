@@ -6,23 +6,23 @@ In this project, we have used a data set with examples of handwritten digits. Th
 
 Information about the dataset (from https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html):
 
-Classes: 10
-Samples per class: ~180
-Samples total: 1797
-Dimensionality: 64
-Features: integers 0-16
+* Classes: 10
+* Samples per class: ~180
+* Samples total: 1797
+* Dimensionality: 64
+* Features: integers 0-16
 
 # Hyperparameters:
 
-x: x dimension of the SOM
-y: y dimension of the SOM
-input_len: number of the elements os the vectors in the input
-sigma: spread of the neighborhood function (sigma(t) = sigma / (1+t/T))
-learning_rate (learning_rate(t)=learning_rate/(1+t/T))
-decay_function (function that reduces learning_rate and sigma at each interaction)
-neighborhood_function (default=gaussian): function that weights the neighborhood of a position in the map
-topology (rectangular (default) or hexagonal)
-activation_distance: distance used to active the map (euclidean (default), consine,manhattan, chebyshev)
+* x: x dimension of the SOM
+* y: y dimension of the SOM
+* input_len: number of the elements os the vectors in the input
+* sigma: spread of the neighborhood function (sigma(t) = sigma / (1+t/T))
+* learning_rate (learning_rate(t)=learning_rate/(1+t/T))
+* decay_function (function that reduces learning_rate and sigma at each interaction)
+* neighborhood_function (default=gaussian): function that weights the neighborhood of a position in the map
+* topology (rectangular (default) or hexagonal)
+* activation_distance: distance used to active the map (euclidean (default), consine,manhattan, chebyshev)
 
 # Definitions
 
