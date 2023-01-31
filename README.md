@@ -1,6 +1,7 @@
 # SOM-for-clustering-digits
 
-Introduction
+# Introduction
+
 In this project, we have used a data set with examples of handwritten digits. There are 1797 examples and each example has 64 pixels as inputs and 1 output (0,1,2,3,... or 9).
 
 Information about the dataset (from https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html):
@@ -11,7 +12,7 @@ Samples total: 1797
 Dimensionality: 64
 Features: integers 0-16
 
-Hyperparameters:
+# Hyperparameters:
 
 x: x dimension of the SOM
 y: y dimension of the SOM
@@ -23,7 +24,7 @@ neighborhood_function (default=gaussian): function that weights the neighborhood
 topology (rectangular (default) or hexagonal)
 activation_distance: distance used to active the map (euclidean (default), consine,manhattan, chebyshev)
 
-Definitions
+# Definitions
 
 Reference: Evaluating Self-Or aluating Self-Organizing Map Quality Measur ganizing Map Quality Measures as Conv es as Convergence Criteria (from Gregory T. Breard )
 
