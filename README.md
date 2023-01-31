@@ -1,5 +1,13 @@
 # SOM-for-clustering-digits
 
+# Tarefa
+▸Aplicar um modelo neural não supervisionado
+▸Avaliar os padrões detectados em cada conjunto:
+▸Clusters / outliers, etc.
+▸Avaliar a homogeneidade dos agrupamentos
+▸Variar os parâmetros do modelo (grid, taxas, número
+de neurônios, etc.)
+
 # Introduction
 
 In this project, we have used a data set with examples of handwritten digits. There are 1797 examples and each example has 64 pixels as inputs and 1 output (0,1,2,3,... or 9).
